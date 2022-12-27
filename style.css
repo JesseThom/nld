@@ -28,8 +28,8 @@ h4 {
     font-size: 2rem;
 }
 
-.service-section {
-    margin-top: 8rem;
+.service-section,.gallery {
+    padding-top: 10rem;
 }
 
 header.masthead {
