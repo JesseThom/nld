@@ -19,8 +19,13 @@
     font-size: 2rem;
 }
 
-.service-section, .gallery {
+.service-section,
+.gallery {
     padding-top: 11rem;
+}
+
+.gallery-item > i{
+    cursor: pointer;
 }
 
 header.masthead {
@@ -91,12 +96,24 @@ header.masthead .masthead-subheading {
     height: 2rem;
 }
 
-/* #contact h2 {
-    color: white
-} */
+.service {
+    max-height: 10rem;
+}
+
+.img-fluid {
+    max-height: 3rem;
+}
+
+.bootstrap-img {
+    max-height: 1rem;
+}
 
 .min-vh-80 {
     min-height: 80vh;
+}
+
+.max-vh-80 {
+    max-height: 80vh;
 }
 
 /* @media (min-width: 768px) {
