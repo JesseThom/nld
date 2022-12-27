@@ -19,12 +19,8 @@
     font-size: 2rem;
 }
 
-.service-section {
+.service-section, .gallery {
     padding-top: 11rem;
-}
-
-.gallery {
-    padding-top: 15rem;
 }
 
 header.masthead {
@@ -91,9 +87,13 @@ header.masthead .masthead-subheading {
     background-size: cover;
 }
 
-#contact h2 {
-    color: white
+.btn-social>img {
+    height: 2rem;
 }
+
+/* #contact h2 {
+    color: white
+} */
 
 .min-vh-80 {
     min-height: 80vh;
