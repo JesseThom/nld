@@ -11,26 +11,21 @@
     list-style: none;
 }
 
-#nav-logo {
-    width: 9rem;
+.min-vh-80 {
+    min-height: 80vh;
 }
 
-.navbar-brand {
-    font-size: 2rem;
+.max-vh-80 {
+    max-height: 80vh;
 }
 
-.service-section,
-.gallery {
-    padding-top: 11rem;
-}
 
-.gallery-item > i{
+
+.gallery-item>i {
     cursor: pointer;
 }
 
-header.masthead {
-    padding-top: 20rem;
-    padding-bottom: 12.5rem;
+.masthead {
     text-align: center;
     color: #056839;
     background-image: url("./imgs/drywall.png");
@@ -40,7 +35,7 @@ header.masthead {
     background-size: cover;
 }
 
-header.masthead .masthead-heading {
+.masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
@@ -52,8 +47,7 @@ header.masthead .masthead-heading {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-header.masthead .masthead-subheading {
-    font-size: 2.25rem;
+.masthead-subheading {
     font-style: italic;
     line-height: 2.25rem;
     margin-bottom: 2rem;
@@ -92,48 +86,184 @@ header.masthead .masthead-subheading {
     background-size: cover;
 }
 
-.btn-social>img {
-    height: 2rem;
+
+
+
+/* phone  */
+@media only screen and (max-width: 480px) {
+    .res-w {
+        width: 130vw;
+    }
+
+    #nav-logo {
+        width: 5rem;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    .masthead {
+        padding-top: 10rem;
+        padding-bottom: 8rem;
+    }
+
+    .masthead-heading {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 1.75rem;
+    }
+
+    .masthead-subheading {
+        font-size: 1.5em;
+    }
+
+    .img-fluid {
+        max-height: 1rem;
+    }
+
+    .logo-section {
+        margin-top: 1rem;
+    }
+
+    .service-section,
+    .gallery {
+        padding-top: 8rem;
+    }
+
+    .service {
+        max-height: 5rem;
+    }
+
+    .footer {
+        font-size: .5rem;
+    }
+
+    .btn-social>img {
+        height: 1rem;
+    }
+    
+    .bootstrap-img {
+        max-height: .5rem;
+    }
 }
 
-.service {
-    max-height: 10rem;
+/* tablet  */
+@media only screen and (min-width: 481px) {
+    .res-w {
+        width: 115vw;
+    }
+
+    #nav-logo {
+        width: 6em;
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .masthead {
+        /* width: 115vw; */
+        padding-top: 10rem;
+        padding-bottom: 8rem;
+    }
+
+    .masthead-heading {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    .masthead-subheading {
+        font-size: 1.75rem;
+    }
+
+    .img-fluid {
+        max-height: 2rem;
+    }
+
+    .logo-section {
+        margin-top: 1rem;
+    }
+
+    .service-section,
+    .gallery {
+        padding-top: 8rem;
+    }
+
+    .service {
+        max-height: 8rem;
+    }
+    .subhead {
+        margin-top: 2.6rem ;
+    }
+
+    .footer {
+        font-size: .5rem;
+    }
+
+    .btn-social>img {
+        height: 1rem;
+    }
+    
+    .bootstrap-img {
+        max-height: .5rem;
+    }
 }
 
-.img-fluid {
-    max-height: 3rem;
-}
+/* pc  */
+@media only screen and (min-width: 1024px) {
+    .res-w {
+        width: 100vw;
+    }
 
-.bootstrap-img {
-    max-height: 1rem;
-}
+    #nav-logo {
+        width: 9rem;
+    }
 
-.min-vh-80 {
-    min-height: 80vh;
-}
+    .navbar-brand {
+        font-size: 2rem;
+    }
 
-.max-vh-80 {
-    max-height: 80vh;
-}
-
-/* @media (min-width: 768px) {
-    header.masthead {
-        padding-top: 17rem;
+    .masthead {
+        width: 100vw;
+        padding-top: 20rem;
         padding-bottom: 12.5rem;
     }
 
-    header.masthead .masthead-heading {
-        font-size: 4.5rem;
-        font-weight: 700;
-        line-height: 4.5rem;
-        margin-bottom: 4rem;
-    }
-
-    header.masthead .masthead-subheading {
+    .masthead-subheading {
         font-size: 2.25rem;
-        font-style: italic;
-        line-height: 2.25rem;
-        margin-bottom: 2rem;
     }
 
-} */
+    .img-fluid {
+        max-height: 3rem;
+    }
+
+    .logo-section {
+        margin-top: 3rem;
+    }
+
+    .service-section,
+    .gallery {
+        padding-top: 11rem;
+    }
+
+    .service {
+        max-height: 12rem;
+    }
+    
+    .subhead {
+        margin: 3rem 0;
+    }
+    .footer {
+        font-size: 1rem;
+    }
+
+    .btn-social>img {
+        height: 2rem;
+    }
+    
+    .bootstrap-img {
+        max-height: 1rem;
+    }
+}
