@@ -87,7 +87,9 @@
 }
 
 
-
+.section-contact {
+    margin-top: 11rem;
+}
 
 /* phone  */
 @media only screen and (max-width: 480px) {
@@ -145,6 +147,10 @@
     
     .bootstrap-img {
         max-height: .5rem;
+    }
+
+    .section-contact {
+        margin-top: 6rem;
     }
 }
 
@@ -209,6 +215,10 @@
     .bootstrap-img {
         max-height: .5rem;
     }
+
+    .section-contact {
+        margin-top: 8rem;
+    }
 }
 
 /* pc  */
@@ -265,5 +275,9 @@
     
     .bootstrap-img {
         max-height: 1rem;
+    }
+
+    .section-contact {
+        margin-top: 11rem;
     }
 }
